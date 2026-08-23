@@ -1,0 +1,554 @@
+[
+  {
+    "id": "luminous",
+    "num": "01",
+    "title": "LUMINOUS",
+    "category": "Web",
+    "thumbnail": "images/LUMINOUS/全画面.png",
+    "heroImage": "images/LUMINOUS/全画面.png",
+    "thumbOrientation": "landscape",
+    "overview": "音楽ライブにおけるサウンドビジュアライゼーションの演出に魅力を感じ、そのアプローチをWebサイトのデザインに取り入れることができるのではないかと考え制作した作品（モック）です。HATSUNE MIKU JAPAN LIVE TOURの過去2回の開催サイトを参考に構成を設計し、楽曲に連動して動くビジュアライズ表現をKVに盛り込むことで、イベントへの期待感や臨場感を伝えることを目指しています。",
+    "concept": "「発光する」という意味を持つLUMINOUSをテーマに設定。過去2回のJAPAN TOURテーマ（THUNDERBOLT・BLOOMING）と同様に、一語で世界観が伝わる言葉を選んだ。音が光になって広がるというサウンドビジュアライゼーションの本質とも直結するテーマである。",
+    "designDetails": [
+      {
+        "label": "カラー",
+        "text": "白はタイトルロゴの金属光沢的な質感を表現するために使用。その他の色はミクのイメージカラーと今回のテーマLUMINOUSを掛け合わせた配色とした。"
+      },
+      {
+        "label": "ビジュアル表現",
+        "text": "ミクのシルエットをアウトラインで表現することでLUMINOUSらしい発光感を演出した。菱形・星形・グリッド背景を組み合わせることで、アナログとデジタルの境界を表現し、ボーカロイドのライブ体験の再現を目指した。"
+      },
+      {
+        "label": "ロゴ",
+        "text": "「O」をひし形に置き換えることでクリスタル的な発光を視覚的に示した。セリフ体のグラデーション処理で金属的な光沢感を表現し、タイトルそのものがテーマを体現するデザインを目指した。"
+      },
+      {
+        "label": "サウンドビジュアライズ",
+        "text": "イベントのテーマ曲をサイト上で再生し、それに連動して動くビジュアライズ表現をKVに組み込んだ。音楽が流れている音をリアルタイムに可視化するスペクトラムバー、ミクを中心に音が波紋のように広がる同心円リング、レコードや音響機器を想起させるディスク＆ゲージメーターを配置することで、サイトを訪れた人がイベントの臨場感や期待感を体感できるデザインを目指した。"
+      }
+    ],
+    "period": "2026年6月15日〜6月22日",
+    "tools": "Illustrator",
+    "process": [],
+    "gallery": [
+      "images/LUMINOUS/全画面.png",
+      "images/LUMINOUS/メインビジュアル.png",
+      "images/LUMINOUS/UIビジュアライザー.png",
+      "images/LUMINOUS/UIメモリ.png",
+      "images/LUMINOUS/UIディスク.png",
+      "images/LUMINOUS/タイトル.png"
+    ],
+    "externalUrl": "https://anehata.github.io/HATSUNE-MIKU-JAPAN-LIVE-TOUR-LUMINOUS-/luminous",
+    "relatedIds": [],
+    "layout": "full"
+  },
+  {
+    "id": "sound-visualizer",
+    "num": "02",
+    "title": "リアルタイムサウンドビジュアライザー",
+    "category": "Web",
+    "thumbnail": "images/SOUND TYPO/screencapture-anehata-github-io-Real-time-sound-visualizer-2026-05-15-16_47_01.png",
+    "heroImage": "images/SOUND TYPO/screencapture-anehata-github-io-Real-time-sound-visualizer-2026-05-15-16_47_01.png",
+    "thumbOrientation": "landscape",
+    "overview": "マイク入力の音声をリアルタイムで解析し、音量・低音域・中音域・高音域それぞれの変化がタイポグラフィの形・太さ・動きに直接反映されるタイポグラフィーを利用したサウンドビジュアライザーの制作中。",
+    "concept": "音楽を聴いているとき、人は無意識に体を動かしたり、音に合わせて感情が変化したりする。その「音が視覚に変換される瞬間」をタイポグラフィで表現したサウンドビジュアライザーです。",
+    "result": "Variable Fontの活用でタイポグラフィにモーショングラフィックとしての可能性を発見しました。AIコーディングにより乱数ベースの表現を実現し、音の周波数帯域をビジュアルに翻訳する過程で音とグラフィックの関係性を深く考える制作となりました。",
+    "period": "2026年5月〜制作中",
+    "tools": "Illustrator / Figma / Claude Code",
+    "process": [
+      {
+        "step": "STEP 01",
+        "title": "リサーチ",
+        "description": "SVの観察とリファレンス集め"
+      },
+      {
+        "step": "STEP 02",
+        "title": "静止画の作成",
+        "description": "Figmaで異なる状態の静止画を作成"
+      },
+      {
+        "step": "STEP 03",
+        "title": "シーン別実装・調整",
+        "description": "Claude Codeでシーン別に実装・調整"
+      },
+      {
+        "step": "STEP 04",
+        "title": "ファイルの統合",
+        "description": "制作したシーンを一つのデータに統合"
+      },
+      {
+        "step": "STEP 05",
+        "title": "音声解析・実装",
+        "description": "音声データを収集し動きの実装"
+      }
+    ],
+    "gallery": [
+      "images/SOUND TYPO/screencapture-anehata-github-io-Real-time-sound-visualizer-2026-05-15-16_47_01.png",
+      "images/SOUND TYPO/screencapture-anehata-github-io-Real-time-sound-visualizer-2026-05-15-16_42_20.png",
+      "images/SOUND TYPO/screencapture-anehata-github-io-Real-time-sound-visualizer-2026-05-15-16_41_37.png",
+      "images/SOUND TYPO/screencapture-anehata-github-io-Real-time-sound-visualizer-2026-05-15-18_01_08.png",
+      "images/SOUND TYPO/screencapture-anehata-github-io-Real-time-sound-visualizer-2026-05-15-16_41_23.png",
+      "images/SOUND TYPO/スクリーンショット 2026-06-14 23.19.03.png",
+      "images/SOUND TYPO/スクリーンショット 2026-06-01 19.00.04.png"
+    ],
+    "externalUrl": "https://anehata.github.io/Real-time-sound-visualizer/",
+    "relatedIds": [],
+    "layout": "normal"
+  },
+  {
+    "id": "tutorial-template",
+    "num": "03",
+    "title": "チュートリアルテンプレート",
+    "category": "ゲーム",
+    "thumbnail": "images/チュートリアルテンプレート/チュートリアル.png",
+    "heroImage": "images/チュートリアルテンプレート/チュートリアル.png",
+    "thumbOrientation": "landscape",
+    "overview": "自身が参加しているゲーム制作チームにおいて、さまざまなゲームで使用できる汎用性の高いチュートリアルの制作プロジェクト。",
+    "concept": "画像や文章を差し替えることで、ジャンルの異なるゲームでも対応できるデザインを目指し、チームで制作を行った。",
+    "result": "エンジニアやプランナーと共同で進行管理を行い、汎用性の高いテンプレートデザインの構築やゲーム特有のアニメーション・ビジュアル表現の制作を通じて、チーム開発に貢献することができました。",
+    "period": "3ヶ月",
+    "tools": "Illustrator / Unity / GitHub",
+    "process": [
+      {
+        "step": "STEP 01",
+        "title": "工数見積もり",
+        "description": "タスクの洗い出し・割り振り"
+      },
+      {
+        "step": "STEP 02",
+        "title": "進捗チェック・再調整",
+        "description": "ミーティングでの打ち合わせ"
+      },
+      {
+        "step": "STEP 03",
+        "title": "三者間でのデザインチェック",
+        "description": "プランナー、エンジニアとの確認"
+      },
+      {
+        "step": "STEP 04",
+        "title": "Unity/GitHubでの作業",
+        "description": "配置とアニメーション作業"
+      }
+    ],
+    "gallery": [],
+    "externalUrl": "",
+    "relatedIds": [],
+    "layout": "normal"
+  },
+  {
+    "id": "graphic-design-poster",
+    "num": "04",
+    "title": "GRAPHIC DESIGN POSTER",
+    "category": "グラフィック",
+    "thumbnail": "images/写真ポスター/Graphicdesign_1.jpg",
+    "heroImage": "images/写真ポスター/Graphicdesign_1.jpg",
+    "thumbOrientation": "portrait",
+    "overview": "長時間露光を用いたライトペインティングを使って制作した。Photoshopの加工ではない独特な表現になった。",
+    "concept": "写真と広告の授業で制作した写真ポスター。長時間露光を用いたライトペインティングによって撮影を行い、光の軌跡を活かした印象的なビジュアル表現を目指した。写真表現ならではの空気感や雰囲気を活かしたポスターに仕上げている。",
+    "period": "1ヶ月",
+    "tools": "Photoshop",
+    "process": [],
+    "galleryType": "stack",
+    "gallery": [
+      "images/写真ポスター/Graphicdesign_1.jpg",
+      "images/写真ポスター/写真ポスタ-2.jpg"
+    ],
+    "externalUrl": "",
+    "relatedIds": [],
+    "layout": "normal"
+  },
+  {
+    "id": "ai-gui",
+    "num": "05",
+    "title": "AIを使ったGUIの検証",
+    "category": "Web",
+    "thumbnail": "images/GUIの検証/１.jpg",
+    "heroImage": "images/GUIの検証/１.jpg",
+    "thumbOrientation": "landscape",
+    "overview": "架空の音楽フェス「真駒内ロックフェスティバル」のWebサイトを題材に、AIを活用したGUI制作のワークフローを検証した作品です。リサーチから課題抽出、情報設計、ワイヤーフレーム、デザインまでをできるだけAIを活用しながら作成し、WebデザインにおけるAIの活用方法の検証を行いました。",
+    "concept": "北海道・札幌の真駒内を舞台にした春の野外ロックフェスティバルを想定し、北国の夜の空気感をビジュアルで体現することをコンセプトにしました。",
+    "result": "AIを使った制作を行い感じたのは、UIの設計に関しての一定の有効性が感じられるものの、UX設計に関しては人間が検証しながら進めていかなければならないのではないかということです。今後、AIの進化に伴い制作プロセスが大きく変化していくことが考えられるが、どの工程でAIを使えるかの検証は必要であると考えます。",
+    "period": "2026年3月〜4月",
+    "tools": "Illustrator / Photoshop / Claude Code",
+    "process": [
+      {
+        "step": "STEP 01",
+        "title": "リサーチ",
+        "description": "既存の音楽フェスサイトを調査し、ユーザーニーズと情報設計のパターンを分析。ターゲットユーザーのペルソナを策定。"
+      },
+      {
+        "step": "STEP 02",
+        "title": "課題抽出",
+        "description": "リサーチから見えた課題を整理。情報の優先順位とユーザー動線の最適化ポイントを特定。"
+      },
+      {
+        "step": "STEP 03",
+        "title": "情報設計・WF",
+        "description": "サイトマップとワイヤーフレームを作成。ページ構成と情報の階層構造を設計。"
+      },
+      {
+        "step": "STEP 04",
+        "title": "デザイン・検証",
+        "description": "ビジュアルデザインを制作し、AIツールの活用方法と効果を振り返り。ワークフローの最適化を検証。"
+      }
+    ],
+    "gallery": [
+      "images/GUIの検証/１.jpg",
+      "images/GUIの検証/２.jpg",
+      "images/GUIの検証/３.png",
+      "images/GUIの検証/４.jpg",
+      "images/GUIの検証/５.png",
+      "images/GUIの検証/６.jpg",
+      "images/GUIの検証/７.png",
+      "images/GUIの検証/８.png",
+      "images/GUIの検証/９.png",
+      "images/GUIの検証/１０.png"
+    ],
+    "externalUrl": "https://anehata.github.io/makomanai-rock-festival/",
+    "relatedIds": ["luminous", "sound-visualizer"],
+    "layout": "full"
+  },
+  {
+    "id": "deainder",
+    "num": "06",
+    "title": "Deainder",
+    "category": "ゲーム",
+    "thumbnail": "images/Deainder/Deainder.png",
+    "heroImage": "images/Deainder/Deainder.png",
+    "thumbOrientation": "landscape",
+    "overview": "出会い系アプリ風のUIをモチーフにした、アドベンチャー＆シミュレーションゲームをチームで制作した。限られた制作期間の中で、優先順位を意識した設計や取捨選択を行いながら開発を進めた。",
+    "concept": "ゲーム制作イベント「unity1week」に参加し、1週間という短期間で制作したゲーム作品。",
+    "result": "エンジニアやプランナーとの共同制作において、データ連携や素材書き出しの時間を考慮すると「1週間という期間でも実制作に充てられる時間は限られる」という時間管理の重要性を学び、その制約のなかで効率的にスケジュールを調整しながら、期間内で最大限のクオリティを目指す経験を得ました。",
+    "period": "3日",
+    "tools": "Illustrator / Photoshop",
+    "process": [
+      {
+        "step": "STEP 01",
+        "title": "ゲーム企画・提案",
+        "description": "会議でゲーム企画決め"
+      },
+      {
+        "step": "STEP 02",
+        "title": "工数見積もり",
+        "description": "タスクの洗い出し・割り振り"
+      },
+      {
+        "step": "STEP 03",
+        "title": "デザイン制作",
+        "description": "画面構成やUI、ロゴの制作"
+      },
+      {
+        "step": "STEP 04",
+        "title": "データ提出",
+        "description": "エンジニアさんにデータ提出"
+      }
+    ],
+    "gallery": [],
+    "externalUrl": "",
+    "relatedIds": [],
+    "layout": "normal"
+  },
+  {
+    "id": "yamanooto",
+    "num": "07",
+    "title": "やまのおと",
+    "category": "絵本・イラスト",
+    "thumbnail": "images/絵本/絵本製本写真.jpg",
+    "heroImage": "images/絵本/絵本製本写真.jpg",
+    "thumbOrientation": "square",
+    "overview": "",
+    "concept": "イラストの授業で制作した全32ページの絵本。登山中に聞こえる山の音をテーマに、登山者の視点から自然の気配や空気感を表現した。読者が山の中に入り込んだような体験ができる構成を目指している。",
+    "period": "1ヶ月",
+    "tools": "InDesign / 水彩絵具",
+    "process": [],
+    "gallery": [
+      "images/絵本/絵本製本写真.jpg",
+      "images/絵本/絵本１.jpg",
+      "images/絵本/絵本２.jpg",
+      "images/絵本/絵本３.jpg",
+      "images/絵本/絵本４.jpg",
+      "images/絵本/絵本５.jpg",
+      "images/絵本/絵本６.jpg",
+      "images/絵本/絵本７.jpg",
+      "images/絵本/絵本８.jpg",
+      "images/絵本/絵本９.jpg",
+      "images/絵本/絵本10.jpg",
+      "images/絵本/絵本11.12.jpg",
+      "images/絵本/絵本13.jpg",
+      "images/絵本/絵本14.jpg",
+      "images/絵本/絵本15.jpg"
+    ],
+    "externalUrl": "",
+    "relatedIds": [],
+    "layout": "normal"
+  },
+  {
+    "id": "exhibition-poster",
+    "num": "08",
+    "title": "演習作品展ポスター",
+    "category": "グラフィック",
+    "thumbnail": "images/演習展ポスター/演習展ポスター_モックアップ.jpg",
+    "heroImage": "images/演習展ポスター/演習展ポスター_モックアップ.jpg",
+    "thumbOrientation": "landscape",
+    "overview": "",
+    "concept": "グラフィックデザイン学科の制作作品展のポスターの制作を行いました。ビジュアルの制作から撮影、文字組みまでを行い、初めてのポスター制作でした。画像の編集や、データ管理などのやり方を学びました。",
+    "period": "1ヶ月",
+    "tools": "Photoshop / Illustrator",
+    "process": [],
+    "galleryType": "stack",
+    "gallery": [
+      "images/演習展ポスター/演習展ポスター_モックアップ.jpg"
+    ],
+    "externalUrl": "",
+    "relatedIds": ["exhibition-venue"],
+    "layout": "normal"
+  },
+  {
+    "id": "exhibition-venue",
+    "num": "09",
+    "title": "演習作品展 会場設営・展示",
+    "category": "空間・造形",
+    "thumbnail": "images/会場設営/会場設営.jpg",
+    "heroImage": "images/会場設営/会場設営.jpg",
+    "thumbOrientation": "landscape",
+    "overview": "",
+    "concept": "グラフィックデザイン学科の制作作品展の会場設営、展示を行いました。壁にどのように作品を展示すれば作品を見やすく鑑賞できるのかを相談しながら展示しました。",
+    "period": "",
+    "tools": "",
+    "process": [],
+    "gallery": [],
+    "externalUrl": "",
+    "relatedIds": ["exhibition-poster"],
+    "layout": "normal"
+  },
+  {
+    "id": "hatarakuhito",
+    "num": "10",
+    "title": "働く人",
+    "category": "写真",
+    "thumbnail": "images/働く人/IMG_0644.JPG",
+    "heroImage": "images/働く人/IMG_0644.JPG",
+    "thumbOrientation": "portrait",
+    "overview": "",
+    "concept": "働く人をテーマに写真集を作成しました。街の中で働く人に声をかけて写真を撮る初めての経験でした。どうしたら、働いている人を自然にまた、魅力的に撮ることができるのかを考えながら撮影しました。写真技術だけでなく、コミュニケーション能力も身についた作品でした。",
+    "period": "1ヶ月",
+    "tools": "Photoshop",
+    "process": [],
+    "galleryType": "stack",
+    "gallery": [
+      "images/働く人/IMG_0644.JPG",
+      "images/働く人/IMG_0660.JPG",
+      "images/働く人/IMG_0700.JPG",
+      "images/働く人/IMG_0702.JPG",
+      "images/働く人/IMG_0708.JPG",
+      "images/働く人/IMG_0750.JPG",
+      "images/働く人/IMG_0873.JPG",
+      "images/働く人/IMG_0879.JPG",
+      "images/働く人/IMG_0893.JPG",
+      "images/働く人/IMG_0898.JPG",
+      "images/働く人/IMG_0906.JPG",
+      "images/働く人/IMG_0908.JPG",
+      "images/働く人/IMG_0919.JPG",
+      "images/働く人/IMG_0926.JPG"
+    ],
+    "externalUrl": "",
+    "relatedIds": [],
+    "layout": "normal"
+  },
+  {
+    "id": "weekly-magazine",
+    "num": "11",
+    "title": "自分について説明する週刊誌の制作",
+    "category": "グラフィック",
+    "thumbnail": "images/コミュニケーションデザイン/Communicationデザイン.jpg",
+    "heroImage": "images/コミュニケーションデザイン/Communicationデザイン.jpg",
+    "thumbOrientation": "portrait",
+    "overview": "",
+    "concept": "コミュニケーションデザインの授業において、自身をテーマとした週刊誌の制作を行った。週刊誌特有の文字レイアウトや視線を引きつけるコピー表現、効果的な色彩設計について学びながら構成した。また、制作を通して印刷表現や紙媒体ならではの技術について学んだ。",
+    "period": "1ヶ月半",
+    "tools": "Photoshop / Illustrator",
+    "process": [],
+    "gallery": [],
+    "externalUrl": "",
+    "relatedIds": [],
+    "layout": "normal"
+  },
+  {
+    "id": "horikomi-seri",
+    "num": "12",
+    "title": "山形旬菜 掘込せり",
+    "category": "グラフィック",
+    "thumbnail": "images/パッケージ＿掘込せり/プレゼンボード.jpg",
+    "heroImage": "images/パッケージ＿掘込せり/プレゼンボード.jpg",
+    "thumbOrientation": "landscape",
+    "overview": "",
+    "concept": "商品提案とパッケージデザインを制作した。県外から訪れた人でも手に取りやすい土産品を想定し、持ち帰りやすい小型の箱型パッケージを設計。山形の旬の味覚を気軽に楽しんでもらえる商品を目指してデザインを行った。",
+    "period": "1ヶ月半",
+    "tools": "Illustrator / Photoshop",
+    "process": [],
+    "galleryType": "stack",
+    "gallery": [
+      "images/パッケージ＿掘込せり/プレゼンボード.jpg",
+      "images/パッケージ＿掘込せり/パッケージ写真.png",
+      "images/パッケージ＿掘込せり/乾燥せり.jpg"
+    ],
+    "externalUrl": "",
+    "relatedIds": [],
+    "layout": "normal"
+  },
+  {
+    "id": "hand-sculpture",
+    "num": "13",
+    "title": "ハンドスカルプチャー",
+    "category": "空間・造形",
+    "thumbnail": "images/ハンドスカルプチャー/ハンドスカルプチャー.jpg",
+    "heroImage": "images/ハンドスカルプチャー/ハンドスカルプチャー.jpg",
+    "thumbOrientation": "landscape",
+    "overview": "",
+    "concept": "授業で制作したハンド・スカルプチャーと言われる木材を手の触覚を頼りに手と調和する形に削りました。雑巾を絞るように手を自然に動かせるような造形を目指して作成しました。",
+    "period": "1ヶ月",
+    "tools": "ナイフ",
+    "process": [],
+    "gallery": [],
+    "externalUrl": "",
+    "relatedIds": [],
+    "layout": "full"
+  },
+  {
+    "id": "andante-tribe",
+    "num": "14",
+    "title": "AndanteTribe ロゴタイプ",
+    "category": "グラフィック",
+    "thumbnail": "images/Andante Tribe＿ロゴタイプ/AndanteTribe_ロゴタイプ.png",
+    "heroImage": "images/Andante Tribe＿ロゴタイプ/AndanteTribe_ロゴタイプ.png",
+    "thumbOrientation": "square",
+    "overview": "",
+    "concept": "参加しているゲームの制作チームのロゴタイプの制作を行なった。ロゴマークは他のメンバーがデザインしていたもので、ロゴ制作のミーティングでの内容をもとにロゴタイプを制作した。",
+    "period": "3日",
+    "tools": "Illustrator",
+    "process": [],
+    "gallery": [],
+    "externalUrl": "",
+    "relatedIds": [],
+    "layout": "normal"
+  },
+  {
+    "id": "zoopict",
+    "num": "15",
+    "title": "ZOO PICTOGRAM",
+    "category": "グラフィック",
+    "thumbnail": "images/zoopict/レター.png",
+    "heroImage": "images/zoopict/レター.png",
+    "thumbOrientation": "portrait",
+    "overview": "",
+    "concept": "1年生のイラストレーターの授業で制作した動物のピクトグラム。動物園で元気に動き回っている動物を表現したかったので動いている姿をピクトグラムにした。",
+    "period": "1ヶ月半",
+    "tools": "Illustrator",
+    "process": [],
+    "galleryType": "stack",
+    "gallery": [
+      "images/zoopict/レター.png",
+      "images/zoopict/zoopict_designconcept.png",
+      "images/zoopict/lion.png",
+      "images/zoopict/elephant.png",
+      "images/zoopict/giraffe.png",
+      "images/zoopict/panda.png",
+      "images/zoopict/penguin.png",
+      "images/zoopict/gorilla.png",
+      "images/zoopict/monkey.png",
+      "images/zoopict/owl.png",
+      "images/zoopict/koala.png",
+      "images/zoopict/hippo.png",
+      "images/zoopict/zebra.png",
+      "images/zoopict/sheep.png"
+    ],
+    "externalUrl": "",
+    "relatedIds": [],
+    "layout": "normal"
+  },
+  {
+    "id": "minnabe",
+    "num": "16",
+    "title": "みんなべ",
+    "category": "Web",
+    "thumbnail": "images/みんなべ/スライド_ページ_1.png",
+    "heroImage": "images/みんなべ/スライド_ページ_1.png",
+    "thumbOrientation": "landscape",
+    "overview": "",
+    "concept": "UI/UXの授業で制作したアプリの設計です。UX部分に重点を置き、ユニークなものになるように制作しました。UIやデザインには課題が残るものの、サービスとしてのアプリの提案ができた。",
+    "period": "3週間",
+    "tools": "Illustrator / Adobe XD",
+    "process": [],
+    "gallery": [
+      "images/みんなべ/スライド_ページ_1.png",
+      "images/みんなべ/スライド_ページ_2.png",
+      "images/みんなべ/スライド_ページ_3.png",
+      "images/みんなべ/スライド_ページ_4.png",
+      "images/みんなべ/スライド_ページ_5.png",
+      "images/みんなべ/スライド_ページ_6.png",
+      "images/みんなべ/スライド_ページ_7.png",
+      "images/みんなべ/みんなべ＿トップページ.png",
+      "images/みんなべ/みんなべ＿使い方.png"
+    ],
+    "externalUrl": "",
+    "relatedIds": [],
+    "layout": "normal"
+  },
+  {
+    "id": "cyanotype",
+    "num": "17",
+    "title": "サイヤノタイプ",
+    "category": "空間・造形",
+    "thumbnail": "images/サイヤノタイプ/サイヤノタイプ.JPG",
+    "heroImage": "images/サイヤノタイプ/サイヤノタイプ.JPG",
+    "thumbOrientation": "landscape",
+    "overview": "",
+    "concept": "サイヤノタイプと言われる青色の発色を特徴とする19世紀に発明された写真技法を使い、キーボードのキーキャップに装飾を行った。プラスチックに液体を塗ることができなかったため、ジェッソを下地として使い塗装を行った。狙った発色にはできなかったが、日光を使った独特な質感を出すことができた。",
+    "period": "1日",
+    "tools": "",
+    "process": [],
+    "gallery": [],
+    "externalUrl": "",
+    "relatedIds": [],
+    "layout": "normal"
+  },
+  {
+    "id": "not-a-book",
+    "num": "18",
+    "title": "これは本ではない",
+    "category": "空間・造形",
+    "thumbnail": "images/これは本ではない/これは本ではない.JPG",
+    "heroImage": "images/これは本ではない/これは本ではない.JPG",
+    "thumbOrientation": "landscape",
+    "overview": "",
+    "concept": "本に質感表現と燻製による香りを施した作品。本が文字以外に質感やニオイの情報を持った時に今までの本と同じ本という括りで扱うことができるのだろうか。",
+    "period": "1ヶ月",
+    "tools": "",
+    "process": [],
+    "gallery": [
+      "images/これは本ではない/これは本ではない.JPG",
+      "images/これは本ではない/これは本ではない＿アップ.JPG"
+    ],
+    "externalUrl": "",
+    "relatedIds": [],
+    "layout": "normal"
+  },
+  {
+    "id": "solo-exhibition-poster",
+    "num": "19",
+    "title": "個展ポスター",
+    "category": "グラフィック",
+    "thumbnail": "images/個展ポスター/個展ポスター.jpg",
+    "heroImage": "images/個展ポスター/個展ポスター.jpg",
+    "thumbOrientation": "portrait",
+    "overview": "",
+    "concept": "写真ポスターで使った技法を流用して制作した。枠のような文字組に挑戦した。",
+    "period": "1ヶ月",
+    "tools": "Illustrator",
+    "process": [],
+    "gallery": [],
+    "externalUrl": "",
+    "relatedIds": [],
+    "layout": "normal"
+  }
+]

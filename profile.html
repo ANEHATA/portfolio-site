@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile — Shimon Fukiura</title>
+  <meta name="description" content="Shimon Fukiura のプロフィール。Web・グラフィック・空間デザインを手がけるデザイナーです。">
+  <link rel="stylesheet" href="css/style.css?v=23">
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <header class="header">
+    <a href="index.html" class="header__logo">Shimon Fukiura</a>
+    <nav class="header__nav" id="globalNav">
+      <a href="index.html" class="header__nav-link">Works</a>
+      <a href="profile.html" class="header__nav-link header__nav-link--active">Profile</a>
+    </nav>
+    <button class="header__hamburger" id="hamburgerBtn" aria-label="メニューを開く" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main class="profile">
+
+    <!-- プロフィールヘッダー -->
+    <section class="profile__header fade-in">
+      <img class="profile__photo" src="images/顔写真/IMG_1886.JPG" alt="吹浦 志門">
+      <div class="profile__info">
+        <h1 class="profile__name">Shimon Fukiura</h1>
+        <p class="profile__name-ja">吹浦 志門</p>
+        <p class="profile__title">Designer</p>
+        <div class="profile__details">
+          <p><span class="profile__details-label">生年月日</span><span class="profile__details-value">2004年5月28日</span></p>
+          <p><span class="profile__details-label">出身地</span><span class="profile__details-value">北海道札幌市</span></p>
+          <p><span class="profile__details-label">大学</span><span class="profile__details-value">東北芸術工科大学 デザイン工学部 グラフィックデザイン学科</span></p>
+        </div>
+        <p class="profile__bio">
+          UI/UX、グラフィック、Webなどを大学や自己制作を通して学んできました。一人で抱え込まず、周りと話しながら制作することが多いです。作品は自身の経験からくるものだと考えているので、新しい物事や興味を持ったことには、とりあえず触ってみることを意識して生活しています。
+        </p>
+      </div>
+    </section>
+
+    <!-- スキル・使用ツール -->
+    <section class="profile__skills fade-in">
+      <h2>Skills & Tools</h2>
+      <div class="profile__skills-list">
+        <span class="profile__skill-item">Photoshop</span>
+        <span class="profile__skill-item">Illustrator</span>
+        <span class="profile__skill-item">Figma</span>
+        <span class="profile__skill-item">InDesign</span>
+        <span class="profile__skill-item">After Effects</span>
+        <span class="profile__skill-item">HTML / CSS</span>
+        <span class="profile__skill-item">Unity</span>
+        <span class="profile__skill-item">Claude Code</span>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="profile__cta fade-in">
+      <a href="index.html" class="profile__cta-link">作品を見る →</a>
+    </section>
+
+  </main>
+
+  <!-- フッター -->
+  <footer class="footer">
+    <p class="footer__copy">&copy; 2026 Shimon Fukiura</p>
+  </footer>
+
+  <script src="js/main.js?v=7"></script>
+</body>
+</html>

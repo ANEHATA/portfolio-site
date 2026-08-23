@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shimon Fukiura — Portfolio</title>
+  <meta name="description" content="Shimon Fukiura のポートフォリオサイト。Web・グラフィック・空間など幅広い領域の制作物を紹介しています。">
+  <link rel="stylesheet" href="css/style.css?v=24">
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <header class="header">
+    <a href="index.html" class="header__logo">Shimon Fukiura</a>
+    <nav class="header__nav" id="globalNav">
+      <a href="index.html" class="header__nav-link header__nav-link--active">Works</a>
+      <a href="profile.html" class="header__nav-link">Profile</a>
+    </nav>
+    <button class="header__hamburger" id="hamburgerBtn" aria-label="メニューを開く" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ヒーローセクション -->
+  <section class="hero">
+    <div class="hero__deco" aria-hidden="true">PORTFOLIO</div>
+    <div class="hero__inner">
+      <h1 class="hero__first-name">Shimon</h1>
+      <span class="hero__last-name" aria-hidden="true">Fukiura</span>
+      <p class="hero__title">Designer</p>
+    </div>
+  </section>
+
+  <!-- カテゴリフィルタ -->
+  <div class="filter" id="categoryFilter" role="toolbar" aria-label="カテゴリフィルタ">
+    <button class="filter__btn filter__btn--active" data-category="all">すべて</button>
+    <button class="filter__btn" data-category="Web">Web</button>
+    <button class="filter__btn" data-category="グラフィック">グラフィック</button>
+    <button class="filter__btn" data-category="ゲーム">ゲーム</button>
+    <button class="filter__btn" data-category="写真">写真</button>
+    <button class="filter__btn" data-category="絵本・イラスト">絵本・イラスト</button>
+    <button class="filter__btn" data-category="空間・造形">空間・造形</button>
+  </div>
+
+  <!-- 作品一覧 -->
+  <section class="works">
+    <p class="works__heading">All Works — <span id="worksCount">13</span> Projects</p>
+    <div class="works__flow" id="worksFlow">
+      <!-- JSで動的に描画 -->
+    </div>
+  </section>
+
+  <!-- フッター -->
+  <footer class="footer">
+    <p class="footer__copy">&copy; 2026 Shimon Fukiura</p>
+  </footer>
+
+  <script src="js/main.js?v=7"></script>
+</body>
+</html>
