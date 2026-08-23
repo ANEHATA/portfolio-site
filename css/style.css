@@ -916,16 +916,15 @@ ul, ol {
 
 .work-detail__external-link {
   display: inline-block;
-  padding: 14px 32px;
-  background: var(--color-text);
-  color: var(--color-white);
-  font-size: 14px;
-  font-weight: var(--font-weight-bold);
-  transition: opacity var(--transition-fast);
+  font-size: 13px;
+  color: var(--color-text-sub);
+  text-decoration: underline;
+  word-break: break-all;
+  transition: color var(--transition-fast);
 }
 
 .work-detail__external-link:hover {
-  opacity: 0.8;
+  color: var(--color-text);
 }
 
 /* 関連作品 */

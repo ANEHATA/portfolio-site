@@ -38,7 +38,7 @@
       "images/LUMINOUS/UIディスク.png",
       "images/LUMINOUS/タイトル.png"
     ],
-    "externalUrl": "https://anehata.github.io/HATSUNE-MIKU-JAPAN-LIVE-TOUR-LUMINOUS-/luminous",
+    "externalUrl": "https://anehata.github.io/HATSUNE-MIKU-JAPAN-LIVE-TOUR-LUMINOUS-/",
     "relatedIds": [],
     "layout": "full"
   },
@@ -131,7 +131,7 @@
       }
     ],
     "gallery": [],
-    "externalUrl": "",
+    "externalUrl": "https://github.com/AndanteTribe/CommonUI",
     "relatedIds": [],
     "layout": "normal"
   },
@@ -244,7 +244,7 @@
       }
     ],
     "gallery": [],
-    "externalUrl": "",
+    "externalUrl": "https://unityroom.com/games/deainder",
     "relatedIds": [],
     "layout": "normal"
   },

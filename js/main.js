@@ -338,7 +338,7 @@ function renderWorkDetail() {
 
     ${work.externalUrl ? `
     <div class="work-detail__external fade-in">
-      <a href="${work.externalUrl}" class="work-detail__external-link" target="_blank" rel="noopener noreferrer">サイトを見る →</a>
+      <a href="${work.externalUrl}" class="work-detail__external-link" target="_blank" rel="noopener noreferrer">${work.externalUrl}</a>
     </div>
     ` : ''}
 
