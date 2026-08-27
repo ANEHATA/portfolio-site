@@ -2,14 +2,14 @@
    カスタムプロパティ
    ======================================== */
 :root {
-  /* カラー（ビジュアルデザインフェーズで確定。暫定値） */
-  --color-bg: #ffffff;
-  --color-bg-sub: #f5f5f5;
-  --color-text: #1a1a1a;
-  --color-text-sub: #666666;
-  --color-text-muted: #999999;
-  --color-border: #e5e5e5;
-  --color-accent: #1a1a1a;
+  /* カラー */
+  --color-bg: #111111;
+  --color-bg-sub: #1a1a1a;
+  --color-text: #f0f0f0;
+  --color-text-sub: #aaaaaa;
+  --color-text-muted: #777777;
+  --color-border: #2a2a2a;
+  --color-accent: #f0f0f0;
   --color-white: #ffffff;
 
   /* タイポグラフィ */
@@ -102,7 +102,7 @@ ul, ol {
   padding: 20px var(--content-padding);
   position: sticky;
   top: 0;
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(17, 17, 17, 0.95);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   z-index: 100;
@@ -344,9 +344,9 @@ ul, ol {
 }
 
 .filter__btn--active {
-  background: var(--color-text);
-  color: var(--color-white);
-  border-color: var(--color-text);
+  background: var(--color-white);
+  color: #111111;
+  border-color: var(--color-white);
 }
 
 @media (max-width: 768px) {
@@ -451,11 +451,11 @@ ul, ol {
 .work-card__placeholder {
   width: 100%;
   aspect-ratio: 3/2;
-  background: #c0c0c0;
+  background: #2a2a2a;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #666;
+  color: #777;
   font-size: 13px;
   transition: transform 0.5s ease;
 }
@@ -546,11 +546,11 @@ ul, ol {
 
   .work-card__title {
     font-size: 14px;
-    color: var(--color-text);
+    color: var(--color-text) !important;
   }
 
   .work-card__cat {
-    color: var(--color-text-muted);
+    color: var(--color-text-muted) !important;
   }
 
   .works__row--full .work-card__title {
@@ -632,7 +632,7 @@ ul, ol {
   width: 100%;
   height: 0;
   padding-bottom: 56.25%;
-  background: #ddd;
+  background: #2a2a2a;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -952,7 +952,7 @@ ul, ol {
 .work-detail__related-card .placeholder {
   width: 100%;
   height: 120px;
-  background: #ddd;
+  background: #2a2a2a;
 }
 
 .work-detail__related-card p {
@@ -1133,8 +1133,8 @@ ul, ol {
 .profile__cta-link {
   display: inline-block;
   padding: 16px 48px;
-  background: var(--color-text);
-  color: var(--color-white);
+  background: var(--color-white);
+  color: #111111;
   font-size: 16px;
   font-weight: var(--font-weight-bold);
   transition: opacity var(--transition-fast);
@@ -1175,12 +1175,13 @@ ul, ol {
 /* ========================================
    スクロールアニメーション（フェードイン）
    ======================================== */
-.fade-in:not(.fade-in--visible) {
+.fade-in {
   opacity: 0;
   transform: translateY(24px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
 .fade-in--visible {
-  opacity: 1;
-  transform: translateY(0);
+  opacity: 1 !important;
+  transform: translateY(0) !important;
 }
