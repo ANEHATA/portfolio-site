@@ -378,10 +378,9 @@ ul, ol {
 }
 
 .works__heading {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--color-text-muted);
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
+  letter-spacing: 0.04em;
   margin-bottom: var(--space-xl);
 }
 
