@@ -148,7 +148,6 @@
     "period": "1ヶ月",
     "tools": "Photoshop",
     "process": [],
-    "galleryType": "stack",
     "gallery": [
       "images/写真ポスター/Graphicdesign_1.jpg",
       "images/写真ポスター/写真ポスタ-2.jpg"
@@ -194,9 +193,9 @@
     ],
     "gallery": [
       "images/GUIの検証/１.jpg",
-      "images/GUIの検証/２.jpg",
+      "images/GUIの検証/２.png",
       "images/GUIの検証/３.png",
-      "images/GUIの検証/４.jpg",
+      "images/GUIの検証/４.png",
       "images/GUIの検証/５.png",
       "images/GUIの検証/６.jpg",
       "images/GUIの検証/７.png",
@@ -334,7 +333,6 @@
     "period": "1ヶ月",
     "tools": "Photoshop",
     "process": [],
-    "galleryType": "stack",
     "gallery": [
       "images/働く人/IMG_0644.JPG",
       "images/働く人/IMG_0660.JPG",
@@ -368,7 +366,9 @@
     "period": "1ヶ月半",
     "tools": "Photoshop / Illustrator",
     "process": [],
-    "gallery": [],
+    "gallery": [
+      "images/コミュニケーションデザイン/Communicationデザイン.jpg"
+    ],
     "externalUrl": "",
     "relatedIds": [],
     "layout": "normal"
@@ -386,7 +386,6 @@
     "period": "1ヶ月半",
     "tools": "Illustrator / Photoshop",
     "process": [],
-    "galleryType": "stack",
     "gallery": [
       "images/パッケージ＿掘込せり/プレゼンボード.jpg",
       "images/パッケージ＿掘込せり/パッケージ写真.png",
@@ -445,7 +444,6 @@
     "period": "1ヶ月半",
     "tools": "Illustrator",
     "process": [],
-    "galleryType": "stack",
     "gallery": [
       "images/zoopict/レター.png",
       "images/zoopict/zoopict_designconcept.png",
@@ -546,7 +544,9 @@
     "period": "1ヶ月",
     "tools": "Illustrator",
     "process": [],
-    "gallery": [],
+    "gallery": [
+      "images/個展ポスター/個展ポスター.jpg"
+    ],
     "externalUrl": "",
     "relatedIds": [],
     "layout": "normal"
